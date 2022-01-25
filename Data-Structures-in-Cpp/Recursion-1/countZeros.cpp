@@ -1,4 +1,6 @@
-
+/* input: 00010204
+   output: 2 */
+   
 int countZeros(int n) {
     // Write your code here
     if(n==0)
