@@ -8,3 +8,13 @@ double geometricSum(int k){
     double power = 1/(double)no;
     return power+geometricSum;
 }
+
+/* time complexity: 0(k)
+   space complexity: 0(k)
+
+   double geometricSum(int k){
+       if(k==0){
+           return 1;
+       }
+       return (1 / pow(2, k)) + geometricSum(k-1);
+   }
